@@ -20,19 +20,17 @@ export default {
   ),
   head: (
     <>
-      <meta charset="utf-8" />
+      <meta charSet="utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta name="title" content="0xdhrv's Wiki" />
       <meta name="description" content="This is my digital garden where I write mostly about code, design, minimalism, psychology, philosophy, art, and music. It is an attempt to share knowledge with the world in a form of a collaborative online project that is hosted on Github. Designer, Developer, and Minimalism.~ stuck b/w develop and deploy " />
       <meta name="keywords" content="0xdhrv's Wiki, Digital Garden, Digital, Garden, Wiki, 0xdhrv, Dhruv Suthar, Dhruv, Suthar, 0x, dhrv, dhrv.pw, 0x.dhrv.pw, developer, designer, minimalism, dhruv, suthar, dhruv suthar" />
       <meta name="robots" content="index, follow" />
-      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
       <meta name="language" content="English" />
       <meta name="revisit-after" content="1 days" />
       <meta name="author" content="0xdhrv" />
       <meta name="twitter:image" content="https://res.cloudinary.com/dhrv/image/upload/v1602144615/resources/dhrv-Og.png" />
       <meta name="og:image" content="https://res.cloudinary.com/dhrv/image/upload/v1602144615/resources/dhrv-Og.png" />
-      <title>0xdhrv's Wiki | Digital Garden</title>
       <link rel="manifest" href="/favicons/manifest.json" />
       <meta name="theme-color" content="#000000" />
       <link rel="mask-icon" href="/favicons/pinned.svg" color="#000000" />
@@ -47,6 +45,6 @@ export default {
   prevLinks: true,
   nextLinks: true,
   footer: true,
-  footerEditOnGitHubLink: true,
+  footerEditOnGitHubLink: false,
   footerText: <>{new Date().getFullYear()} © <a className="text-gray-600" target="_blank" href="https://dhrv.pw/">0xdhrv</a></>
 }

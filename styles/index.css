@@ -153,7 +153,7 @@ pre {
         SFMono-Regular,
         Consolas,
         'Liberation Mono',
-        Menlo,
+        'Lucida Console',
         monospace;
     /* 1 */
     font-size: 1em;
@@ -586,7 +586,7 @@ pre,
 code,
 kbd,
 samp {
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-family: ui-monospace, SFMono-Regular, 'Lucida Console', Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 /**
@@ -1335,8 +1335,11 @@ figure figcaption {
 }
 
 .text-gray-700 {
-    --tw-text-opacity: 1;
-    color: rgba(74, 85, 104, var(--tw-text-opacity));
+    color: #212121;
+}
+
+.dark .text-gray-700 {
+    color: #cdcdcd;
 }
 
 .text-gray-800 {
@@ -1592,17 +1595,16 @@ content ol {
 .anchor-icon {
     opacity: 0;
     margin-left: 0.5rem;
-    --tw-text-opacity: 1;
-    color: rgba(160, 174, 192, var(--tw-text-opacity));
+    color: #212121;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
 }
 
+
 .dark .anchor-icon {
-    --tw-text-opacity: 1;
-    color: rgba(74, 85, 104, var(--tw-text-opacity));
+    color: #cdcdcd;
 }
 
 h2 a {

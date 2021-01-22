@@ -1,10 +1,5 @@
 {
     "index": "Introduction",
     "code": "Code",
-    "design": "Design",
-    "minimalism": "Minimalism",
-    "psychology": "Psychology",
-    "philosophy": "Philosophy",
-    "art": "Art",
-    "music": "Music"
+    "web": "Web"
 }
